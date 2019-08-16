@@ -4,7 +4,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    // Basic coming soon message.
+    <div className="App"> 
       <h1>Soon...</h1>
       <p>Be patient, it's coming...</p>
     </div>
