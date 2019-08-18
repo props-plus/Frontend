@@ -7,7 +7,7 @@ function App() {
     // Basic coming soon message.
     <div className="App"> 
       <h1>Soon...</h1>
-      <p>Be patient, it's coming....</p>
+      <p>Be patient, it's coming.....</p>
     </div>
   );
 }
