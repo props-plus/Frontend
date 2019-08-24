@@ -1,14 +1,14 @@
-import React,{ Component } from "react";
+import React, { Component } from "react";
 
 //React Router
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-//Page 
+//Page
 import Home from "./Pages/Landing-Page/Home/index.js";
 import Price from "./Pages/Landing-Page/Price/index.js";
 import About from "./Pages/Landing-Page/About/index.js";
 
-import './App.css';
+import "./App.css";
 
 class App extends Component {
   render() {
