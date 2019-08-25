@@ -10,8 +10,8 @@ export const NavStyle = styled.nav`
     align-items: none;
     flex-direction: row;
     position: fixed;
-    height: 44px;
-    background-color: #3cceff;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(90, 185, 234, 1), rgba(90, 185, 234, 1));
     z-index:99;
     opacity: .8;
     transition: .3s ease-in, .5s ease-in;
@@ -24,13 +24,19 @@ export const NavStyle = styled.nav`
     width: 100%;
     display: flex;
     justify-content: none;
-    align-items: none;
+    align-items: center;
     flex-direction: row;
     color: #fff;
     letter-spacing: 1px;
     padding: 0 10px;
   }
   
+  img {
+    width: 50px;
+    margin-top: 4px;
+    margin-left: 20px;
+  }
+
   .top-bar .container .container-center {
     display: flex;
     justify-content: flex-end;
