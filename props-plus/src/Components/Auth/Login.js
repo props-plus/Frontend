@@ -7,9 +7,8 @@ export default function Login() {
   return (
     <>
       {/* eslint-disable-next-line */}
-      {!isAuthenticated && <a onClick={() => loginWithRedirect({})}>Sign-In</a>}
+      {!isAuthenticated && <a onClick={() => loginWithRedirect({})}>Sign-In</a> || isAuthenticated && <a onClick={() => logout()}>Log Out</a>}
       {/* eslint-disable-next-line */}
-      {isAuthenticated && <a onClick={() => logout()}>Log Out</a>}
     </>
   );
 }
