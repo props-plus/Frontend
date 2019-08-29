@@ -1,11 +1,13 @@
+
 import React from "react";
-import ReactGA from "react-ga";
 
 import { Link } from "react-router-dom";
 
 import { NavStyle } from "./styles";
 
 import Login from "../../../Components/Auth/Login.js";
+
+import Logo from "../../../img/logo.png";
 
 function Nav() {
   const routes = [
@@ -16,14 +18,11 @@ function Nav() {
 
   return (
     <NavStyle>
-      <style>
-        @import url('https://fonts.googleapis.com/css?family=Oswald');
-      </style>
-      <style>
-        @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-      </style>
       <div className="top-bar">
         <div className="container">
+        <div>
+        <img src={Logo} alt=""/>
+      </div>
           <div className="container-center">
             {routes.map(route => (
               <Link key={route.path} to={route.path}>
