@@ -44,7 +44,7 @@ class Home extends Component {
         <Container text textAlign='center'>
           <Header
             as='p'
-            content='EMPLOYEE RECOGNITION PLATFORM'
+            content='EMPLOYEE RECOGNITION UTILITY TOOL'
             inverted
             style={{
               color: '#000',
@@ -113,7 +113,45 @@ class Home extends Component {
         <Divider style={{
           marginTop: '7em'
         }} />
-      </AboutDiv>
+        <Grid columns={5} divided style={{
+          textAlign: 'center'
+        }}>
+          <Grid.Row>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+            <Grid.Column>
+              <p>INSERT FEATURES</p>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
+      </AboutDiv >
     );
   }
 }
