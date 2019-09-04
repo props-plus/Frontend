@@ -42,7 +42,7 @@ class Home extends Component {
               
             </Header>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Healthy office cultures often acknowledge good work from their coworkers and peers. Award your peers with acknowledgements that act like coins/points in Slack when they do awesome things - and never let the acknowledgement of their good work get lost in the shuffle again.
             </p>
             <Button size="large" primary>
               Learn more &raquo;
@@ -52,36 +52,27 @@ class Home extends Component {
         <Container>
           <Grid stackable columns="three">
             <Grid.Column>
-              <Header as="h1">Heading</Header>
+              <Header as="h1">Slack Integration</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+              An employee can view the props they've received on their Slack Workspace. These will also be viewable by other employees in the group in a group channel. 
               </p>
               <Button basic size="small">
                 View details &raquo;
               </Button>
             </Grid.Column>
             <Grid.Column>
-              <Header as="h1">Heading</Header>
+              <Header as="h1">People Pushing Positivity</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+              Through a leader-board system that tracks each users props score. You will be able to look over all of the props you have received.
               </p>
               <Button basic size="small">
                 View details &raquo;
               </Button>
             </Grid.Column>
             <Grid.Column>
-              <Header as="h1">Heading</Header>
+              <Header as="h1"> Positive Reinforcement</Header>
               <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.
+              A network effect is created, when multiple companies use this application and are able to track employee reputation through many companies over time.
               </p>
               <Button basic size="small">
                 View details &raquo;
