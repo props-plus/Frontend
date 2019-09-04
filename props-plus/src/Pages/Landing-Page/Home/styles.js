@@ -10,6 +10,7 @@ export const HomeStyle = styled.nav`
     color: white;
     height: -webkit-fill-available;
     display: flex;
+    
     .button{
         background: #84ceeb;
 
@@ -18,6 +19,7 @@ export const HomeStyle = styled.nav`
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
