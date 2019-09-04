@@ -4,16 +4,3 @@
   padding: 0;
 }
 
-body {
-  font-family: "Noto Sans", sans-serif;
-  background-color: rgb(10, 10, 10);
-  color: white;
-}
-
-.App {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
