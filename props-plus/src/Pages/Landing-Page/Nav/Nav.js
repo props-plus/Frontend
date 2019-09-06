@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import { NavStyle } from "./styles";
 
@@ -9,31 +9,36 @@ import Login from "../../../Components/Auth/Login.js";
 
 import Logo from "../../../img/logo.png";
 
+import './nav.css'
+
 function Nav() {
+
+
   const routes = [
     { path: "/", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/pricing", name: "Pricing" }
+    { path: "/pricing", name: "Pricing" },
+    { path: "/about-us", name: "About us" },
+    { path: "/contact", name: "Contact" }
+
   ];
 
   return (
-    <NavStyle>
-      <div className="top-bar">
-        <div className="container">
-        <div>
+    <div className='navContainer'>
+      <div className='logo'>
         <img src={Logo} alt=""/>
       </div>
-          <div className="container-center">
-            {routes.map(route => (
-              <Link key={route.path} to={route.path}>
-                {route.name}
-              </Link>
-            ))}
-            <Login />
-          </div>
-        </div>
+      <div className='navBar'>
+        <nav>
+          <NavLink>Home</NavLink>
+          <NavLink>Pricing</NavLink>
+          <NavLink>About us</NavLink>
+          <NavLink>Contact</NavLink>
+        </nav>
       </div>
-    </NavStyle>
+      <div className='loginButton'>
+        <Link>Login</Link>
+      </div>
+    </div>
   );
 }
 
