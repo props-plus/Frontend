@@ -1,0 +1,72 @@
+.container {
+    background: #7538FE;
+    font-family: 'Didact Gothic', sans-serif;
+    height: 100vh;
+    opacity: 0.99;
+}
+
+.container .jumbotron {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.container .mainHeader {
+    color: #ffffff;
+    font-size: 30px;
+    /* line-height: 84px; */
+    /* letter-spacing: 0.02em; */
+    margin: 150px 0 0 230px;
+}
+
+.container .mainHeader span {
+    color: #5AF5FF
+}
+
+.container .ctaButtons {
+    margin: 50px 0 0 230px;
+}
+
+
+.container .ctaButtons .slackButton {
+    background: none;
+    border: 5px solid #5AF5FF;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 20px 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .ctaButtons .slackButton:hover {
+    opacity: 0.7;
+}
+
+.container .ctaButtons .docButton {
+    background: none;
+    border: 5px solid #5AF5FF;
+    border-left: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 20px 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .ctaButtons .docButton:hover {
+    opacity: 0.7;
+}
+
+.container .subContent {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 130px 300px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .subContent .subHeader ul {
+    margin-left: 25px;
+}

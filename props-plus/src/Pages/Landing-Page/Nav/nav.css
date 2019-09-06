@@ -1,3 +1,41 @@
 .navContainer {
-  background:
+  background: #7538FE;
+  padding: 10px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContainer nav {
+  margin: 15px 0;
+}
+
+.navContainer nav a {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0 35px;
+  text-decoration: none;    
+}
+
+.navContainer nav a:hover {
+  opacity: 0.9;
+}
+
+.navContainer nav .active {
+  text-decoration: underline;
+  text-decoration-color:#5AF5FF;
+}
+
+.navContainer .loginButton a {
+  border: 3px solid #5AF5FF;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 10px 0;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navContainer .loginButton a:hover {
+  opacity: .9;
 }

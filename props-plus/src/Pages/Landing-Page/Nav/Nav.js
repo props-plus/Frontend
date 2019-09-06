@@ -3,8 +3,6 @@ import React from "react";
 
 import { NavLink, Link } from "react-router-dom";
 
-import { NavStyle } from "./styles";
-
 import Login from "../../../Components/Auth/Login.js";
 
 import Logo from "../../../img/logo.png";
@@ -25,11 +23,11 @@ function Nav() {
   return (
     <div className='navContainer'>
       <div className='logo'>
-        <img src={Logo} alt=""/>
+        <img src={Logo} alt="" />
       </div>
       <div className='navBar'>
         <nav>
-          <NavLink>Home</NavLink>
+          <NavLink className='active'>Home</NavLink>
           <NavLink>Pricing</NavLink>
           <NavLink>About us</NavLink>
           <NavLink>Contact</NavLink>
