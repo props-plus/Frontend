@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 
 import Nav from "../Nav/Nav";
-import jumbtron from '../../../img/jumbotron.jpg'
+
+import jumbotron from '../../../img/jumbotron.jpg'
 
 import './home.css'
 
@@ -19,7 +22,7 @@ class Home extends Component {
   render() {
     return (
       <div className='container'>
-        <img className='jumbotron' src={jumbtron} />
+        <img className='jumbotron' src={jumbotron} />
         <Nav />
         <div className='mainHeader'>
           <h1>
@@ -48,6 +51,18 @@ class Home extends Component {
             <p>Appreciation goes a long way.</p>
             <p>Acknowledging above and beyond performance.</p>
           </div>
+        </div>
+        <div className='scroll'>
+          <button className='scrollButton'><svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.596 1.92857C20.596 1.76786 20.5156 1.58705 20.3951 1.46652L19.3906 0.462052C19.2701 0.341517 19.0893 0.26116 18.9286 0.26116C18.7679 0.26116 18.5871 0.341517 18.4665 0.462052L10.5714 8.35714L2.67634 0.462052C2.5558 0.341517 2.375 0.26116 2.21429 0.26116C2.03348 0.26116 1.87277 0.341517 1.75223 0.462052L0.747768 1.46652C0.627232 1.58705 0.546875 1.76786 0.546875 1.92857C0.546875 2.08929 0.627232 2.27009 0.747768 2.39062L10.1094 11.7522C10.2299 11.8728 10.4107 11.9531 10.5714 11.9531C10.7321 11.9531 10.9129 11.8728 11.0335 11.7522L20.3951 2.39062C20.5156 2.27009 20.596 2.08929 20.596 1.92857Z" fill="white" />
+          </svg>
+          </button>
+          <span className='scrollText'>Scroll down</span>
+        </div>
+        <div className='socialMedia'>
+          <span><FontAwesomeIcon className='facebook' icon={faFacebookSquare} /></span>
+          <span><FontAwesomeIcon className='twitter' icon={faTwitterSquare} /></span>
+          <span><FontAwesomeIcon className='youtube' icon={faYoutubeSquare} /></span>
         </div>
       </div>
     );

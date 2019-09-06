@@ -3,6 +3,7 @@
     font-family: 'Didact Gothic', sans-serif;
     height: 100vh;
     opacity: 0.99;
+    position: relative;
 }
 
 .container .jumbotron {
@@ -22,7 +23,8 @@
 }
 
 .container .mainHeader span {
-    color: #5AF5FF
+    color: #5AF5FF;
+    font-weight: bold;
 }
 
 .container .ctaButtons {
@@ -62,11 +64,73 @@
 .container .subContent {
     color: #ffffff;
     font-size: 20px;
-    margin: 130px 300px 0 0;
+    margin: 130px 120px 0 0;
     display: flex;
     justify-content: space-around;
 }
 
 .container .subContent .subHeader ul {
     margin-left: 25px;
+}
+
+.container .socialMedia {
+    padding: 5px;
+    position: absolute;
+    margin-left: 93%;
+    bottom: 25%;
+    width: 80px;
+}
+
+
+.container .socialMedia span {
+    color: #ffffff;
+    font-size: 64px;
+    margin: 0 20px;
+}
+
+.container .socialMedia span:hover {
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover {
+    color: rgb(76, 117, 201);
+}
+
+.socialMedia .twitter:hover {
+    color: #1DA1F2;
+}
+
+.socialMedia .youtube:hover {
+    color: #FF0000;
+}
+
+.container .scroll {
+    position: absolute;
+    bottom: 10%;
+    transform: rotate(270deg);
+    margin-bottom: 30px;
+}
+
+.container .scroll .scrollButton {
+    height: 80px;
+    width: 80px;
+    background: #7538FE;
+    border: 3px solid #5AF5FF;
+    border-radius: 50%;
+    color: #5AF5FF;
+    font-size: 24px;
+    padding: 25px;
+    transform: rotate(90deg);
+}
+
+.container .scroll .scrollButton:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container .scroll .scrollText {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
 }
