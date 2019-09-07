@@ -5,7 +5,11 @@ import { faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome
 
 import Nav from "../Nav/Nav";
 
+// images
 import jumbotron from '../../../img/jumbotron.jpg'
+import smiley from '../../../img/smiley.png'
+import gift from '../../../img/gift.png'
+import slack from '../../../img/slack.png'
 
 import './home.css'
 
@@ -68,22 +72,21 @@ class Home extends Component {
         </div>
         <div className='homeFeatures'>
           <h2>
-            PropsPlus is a team based platform integrated into Slack.  Acknowledgement goes a long way!
+            <span>PropsPlus</span> is a team based platform <br /> integrated into Slack. <br />  Acknowledgement goes a long way!
           </h2>
           <div className='homeCards'>
             <div className='card'>
-              <img />
-              <p>An employee can view the props they've received from their teammates on Slack. </p>
+              <img className='cardImg' src={slack} />
+              <p>An employee can view the <br /> props they've received from <br /> their teammates on Slack. </p>
             </div>
             <div className='card'>
-              <img />
-              <p>Show off your achievements and acknowledgements with fun badges.</p>
+              <img className='cardImg' src={smiley} />
+              <p>Show off your achievements <br /> and acknowledgements <br /> with fun badges.</p>
             </div>
             <div className='card'>
-              <img />
-              <p>Redeem your PropsPoints for tangible and customizable rewards.</p>
+              <img className='cardImg' src={gift} />
+              <p>Redeem your PropsPoints for <br /> tangible and customizable <br /> rewards.</p>
             </div>
-
           </div>
         </div>
       </>

@@ -134,3 +134,49 @@
     font-weight: bold;
     margin-left: 10px;
 }
+
+/* Homepage Features */
+
+.homeFeatures {
+    background: #F4EFFF;
+    height: 100vh;
+}
+
+.homeFeatures h2 {
+    color: #231C38;
+    font-size: 52px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.homeFeatures h2 span {
+    color: #7538FE;
+}
+
+.homeFeatures .homeCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homeFeatures .homeCards .card {
+    color: #231C38;
+    font-size: 30px;
+    margin-top: 70px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.homeFeatures .homeCards .card .slackImg {
+    margin-bottom: 80px;
+    width: 300px;
+}
+
+.homeFeatures .homeCards .card .cardImg {
+    margin: 0 15%;
+    margin-bottom: 30px;
+    width: 250px;
+}
