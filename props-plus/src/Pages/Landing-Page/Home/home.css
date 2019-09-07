@@ -162,12 +162,11 @@
     color: #231C38;
     font-size: 30px;
     margin-top: 70px;
-    padding: 25px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
 }
 
 .homeFeatures .homeCards .card .slackImg {
