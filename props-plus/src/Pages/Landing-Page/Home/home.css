@@ -169,13 +169,7 @@
     align-items: center;
 }
 
-.homeFeatures .homeCards .card .slackImg {
-    margin-bottom: 80px;
-    width: 300px;
-}
-
 .homeFeatures .homeCards .card .cardImg {
-    margin: 0 15%;
     margin-bottom: 30px;
     width: 250px;
 }
