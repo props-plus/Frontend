@@ -1,6 +1,5 @@
 .container {
     background: #7538FE;
-    font-family: 'Didact Gothic', sans-serif;
     height: 100vh;
     opacity: 0.99;
     position: relative;
@@ -139,7 +138,6 @@
 
 .homeFeatures {
     background: #F4EFFF;
-    font-family: 'Didact Gothic', sans-serif;
     height: 100vh;
 }
 
@@ -178,7 +176,6 @@
 /* Admin Features */
 
 .adminFeatures {
-    font-family: 'Didact Gothic', sans-serif;
     height: 100vh;
     position: relative;
 }
