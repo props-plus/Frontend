@@ -10,6 +10,7 @@ import jumbotron from '../../../img/jumbotron.jpg'
 import smiley from '../../../img/smiley.png'
 import gift from '../../../img/gift.png'
 import slack from '../../../img/slack.png'
+import businessman from '../../../img/businessman.jpg'
 
 import './home.css'
 
@@ -87,6 +88,14 @@ class Home extends Component {
               <img className='cardImg' src={gift} />
               <p>Redeem your PropsPoints for <br /> tangible and customizable <br /> rewards.</p>
             </div>
+          </div>
+        </div>
+        <div className='adminFeatures'>
+          <img src={businessman} />
+          <div className='adminText'>
+            <h2>Manage your <span>team</span> <br /> the best way possible.</h2>
+            <p>With a robust analytics dashboard, you’ll <br /> learn how to best support your team and <br /> take your projects to the next level.</p>
+            <button>Learn more</button>
           </div>
         </div>
       </>

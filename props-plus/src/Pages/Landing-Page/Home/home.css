@@ -139,6 +139,7 @@
 
 .homeFeatures {
     background: #F4EFFF;
+    font-family: 'Didact Gothic', sans-serif;
     height: 100vh;
 }
 
@@ -172,4 +173,61 @@
 .homeFeatures .homeCards .card .cardImg {
     margin-bottom: 30px;
     width: 250px;
+}
+
+/* Admin Features */
+
+.adminFeatures {
+    font-family: 'Didact Gothic', sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+.adminFeatures img {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 90vh;
+    z-index: -1;
+}
+
+.adminFeatures .adminText {
+    background: #ffffff;
+    color: #231C38;
+    font-size: 30px;
+    height: 692px;
+    width: 836px;
+    position: absolute;
+    left: 9%;
+    top: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.adminFeatures .adminText h2 {
+    margin-left: 25%;
+}
+
+.adminFeatures .adminText h2 span {
+    color: #6C30F6;
+}
+
+.adminFeatures .adminText p {
+    margin-left: 25%;
+}
+
+.adminFeatures .adminText button {
+    background: #7538FE;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 45px;
+    margin-left: 25%;
+    width: 35%;
+}
+
+.adminFeatures .adminText button:hover {
+    opacity: 0.7;
 }
