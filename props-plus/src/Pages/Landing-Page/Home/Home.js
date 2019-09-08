@@ -32,7 +32,7 @@ class Home extends Component {
           <Nav />
           <div className='mainHeader'>
             <h1>
-              People pushing <span>positivity.</span>
+              People pushing <div className='bounce-in-top'><span>positivity</span>.</div>
               <br />
               <span>Motivate</span> your <span>team</span> with a <span>positive</span> workplace.
             <br />
@@ -73,7 +73,7 @@ class Home extends Component {
         </div>
         <div className='homeFeatures'>
           <h2>
-            <span>PropsPlus</span> is a team based platform <br /> integrated into Slack. <br />  Acknowledgement goes a long way!
+            <span>PropsPlus+</span> is a team based platform <br /> integrated into Slack. <br />  Acknowledgement goes a long way!
           </h2>
           <div className='homeCards'>
             <div className='card'>

@@ -5,6 +5,14 @@
   justify-content: space-between;
 }
 
+.navContainer .logo {
+  height: 0px;
+}
+
+.navContainer .logo img {
+  height: 70px;
+}
+
 .navContainer nav {
   margin: 15px 0;
 }
@@ -14,7 +22,10 @@
   color: #ffffff;
   margin: 0 35px;
   text-decoration: none;    
+  animation:slide-in-bck-center .7s cubic-bezier(.25,.46,.45,.94) both;
 }
+
+@keyframes slide-in-bck-center{0%{transform:translateZ(600px);opacity:0}100%{transform:translateZ(0);opacity:1}}
 
 .navContainer nav a:hover {
   opacity: 0.9;
