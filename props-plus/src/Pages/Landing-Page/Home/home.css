@@ -1,0 +1,275 @@
+.container {
+    background: #7538FE;
+    height: 100vh;
+    opacity: 0.99;
+    position: relative;
+}
+
+.container .jumbotron {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.container .mainHeader {
+    color: #ffffff;
+    font-size: 30px;
+    /* line-height: 84px; */
+    /* letter-spacing: 0.02em; */
+    margin: 150px 0 0 230px;
+}
+
+.container .mainHeader span {
+    color: #5AF5FF;
+    font-weight: bold;
+}
+
+.bounce-in-top {
+    color: #5AF5FF;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 49px;
+    display: inline-block;
+    animation: bounce-in-top 2.1s both;
+}
+
+@keyframes bounce-in-top{0%{transform:translateX(-600px);animation-timing-function:ease-in;opacity:0}38%{transform:translateX(0);animation-timing-function:ease-out;opacity:1}55%{transform:translateX(-68px);animation-timing-function:ease-in}72%{transform:translateX(0);animation-timing-function:ease-out}81%{transform:translateX(-28px);animation-timing-function:ease-in}90%{transform:translateX(0);animation-timing-function:ease-out}95%{transform:translateX(-8px);animation-timing-function:ease-in}100%{transform:translateX(0);animation-timing-function:ease-out}}
+.container .ctaButtons {
+    margin: 50px 0 0 230px;
+}
+
+
+.container .ctaButtons .slackButton {
+    background: none;
+    border: 5px solid #5AF5FF;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 20px 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .ctaButtons .slackButton:hover {
+    opacity: 0.7;
+}
+
+.container .ctaButtons .docButton {
+    background: none;
+    border: 5px solid #5AF5FF;
+    border-left: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 20px 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .ctaButtons .docButton:hover {
+    opacity: 0.7;
+}
+
+.container .subContent {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 130px 120px 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .subContent .subHeader ul {
+    margin-left: 25px;
+}
+
+.container .socialMedia {
+    padding: 5px;
+    position: absolute;
+    margin-left: 93%;
+    bottom: 25%;
+    width: 80px;
+}
+
+
+.container .socialMedia span {
+    color: #ffffff;
+    font-size: 64px;
+    margin: 0 20px;
+}
+
+.container .socialMedia span:hover {
+    cursor: pointer;
+}
+
+.socialMedia .facebook:hover {
+    color: rgb(76, 117, 201);
+}
+
+.socialMedia .twitter:hover {
+    color: #1DA1F2;
+}
+
+.socialMedia .youtube:hover {
+    color: #FF0000;
+}
+
+.container .scroll {
+    position: absolute;
+    bottom: 10%;
+    transform: rotate(270deg);
+    margin-bottom: 30px;
+}
+
+.container .scroll .scrollButton {
+    height: 80px;
+    width: 80px;
+    background: #7538FE;
+    border: 3px solid #5AF5FF;
+    border-radius: 50%;
+    color: #5AF5FF;
+    font-size: 24px;
+    padding: 25px;
+    transform: rotate(90deg);
+}
+
+.container .scroll .scrollButton:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container .scroll .scrollText {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Homepage Features */
+
+.homeFeatures {
+    background: #F4EFFF;
+    height: 100vh;
+}
+
+.homeFeatures h2 {
+    color: #231C38;
+    font-size: 52px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.homeFeatures h2 span {
+    color: #7538FE;
+}
+
+.homeFeatures .homeCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homeFeatures .homeCards .card {
+    color: #231C38;
+    font-size: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeFeatures .homeCards .card .cardImg {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    width: 250px;
+    background: #F4EFFF;
+    -webkit-animation: shadow-drop-2-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        /* animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
+}
+@-webkit-keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            }
+        }
+                @keyframes shadow-drop-2-center {
+                  0% {
+                    -webkit-transform: translateZ(0);
+                            transform: translateZ(0);
+                    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+                  }
+                  100% {
+                    -webkit-transform: translateZ(50px);
+                            transform: translateZ(50px);
+                    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+                            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+                  }
+                }
+
+/* Admin Features */
+
+.adminFeatures {
+    height: 100vh;
+    position: relative;
+}
+
+.adminFeatures img {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 90vh;
+    z-index: -1;
+}
+
+.adminFeatures .adminText {
+    background: #ffffff;
+    color: #231C38;
+    font-size: 30px;
+    height: 692px;
+    width: 836px;
+    position: absolute;
+    left: 9%;
+    top: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation:slide-in-bck-left 1s cubic-bezier(.25,.46,.45,.94) both
+}
+
+@keyframes slide-in-bck-left{0%{transform:translateZ(700px) translateX(-400px);opacity:0}100%{transform:translateZ(0) translateX(0);opacity:1}}
+
+.adminFeatures .adminText h2 {
+    margin-left: 25%;
+}
+
+.adminFeatures .adminText h2 span {
+    color: #6C30F6;
+}
+
+.adminFeatures .adminText p {
+    margin-left: 25%;
+}
+
+.adminFeatures .adminText button {
+    background: #7538FE;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 45px;
+    margin-left: 25%;
+    width: 35%;
+}
+
+.adminFeatures .adminText button:hover {
+    opacity: 0.7;
+}
